@@ -29,7 +29,7 @@ android {
         namespace("com.bottlepay.flutter_libphonenumber")
     }
 
-    compileSdkVersion 29
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -41,6 +41,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 18
+        targetSdkVersion 34
     }
     lintOptions {
         disable 'InvalidPackage'
